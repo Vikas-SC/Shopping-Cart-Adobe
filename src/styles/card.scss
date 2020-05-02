@@ -55,7 +55,41 @@ color: green;
     margin-bottom: 20px;
   }
 }
+.quantiy{
+  float: right;
+  display: block;
+  position: relative;
+  margin: 40px 0px 0px 170px;
+}
+.cartItem{
+  width: 100%;
+  display: inline-flex;
+  background-color: green($color: #000000);
+  img{
+    height: 100px;
+    width: 100px;
+  }
+}
 
+.removeBtn{
+  margin-left: 26%;
+    height: 23px;
+    margin-top: 40px;
+}
+
+.itemColumn{
+    width: 70%;
+    height: 50%;
+    padding: 12px 14px 12px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    margin: 0px 0px 30px;
+}
+
+.itemRow{
+  margin: 30px 0px 0px 2px;
+}
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -73,5 +107,6 @@ color: green;
     border-radius: 8px;
     background-color: #efb404;
     font-weight: bold;
+    cursor: pointer;
   }
 }

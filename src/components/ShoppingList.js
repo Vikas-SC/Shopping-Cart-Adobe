@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 const ShoppingList = (props) => {
   const addToCart = (item) => {
     props.addToCart(item);
+    alert(`${item.name} added to cart successfully`);
   }
   return (
     <div>

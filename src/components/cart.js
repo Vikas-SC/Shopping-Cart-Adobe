@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import { connect } from 'react-redux';
 function Cart(props) {
-  console.log(props);
   return (
     <Link to="/cart"><div>
       <i className="fa fa-shopping-cart" aria-hidden="true"></i>
