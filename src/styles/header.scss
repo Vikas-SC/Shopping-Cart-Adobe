@@ -1,0 +1,28 @@
+$headerBC:#3285da;
+
+.header{
+  overflow: hidden;
+  background-color: $headerBC;
+  padding: 13px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-icon{
+  display: flex;
+  font-size: 30px;
+  color: white;;
+  flex-direction: row-reverse;
+  div{
+    display: flex;
+    padding-right: 20px;
+  }
+}
+
+.search{
+  display: flex;
+  border: 1px solid #408e98;
+  border-radius: 6px;
+  margin-right: 20px;
+  
+}
